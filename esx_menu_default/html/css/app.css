@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+
+.menu {
+	font-family: 'Poppins', sans-serif;
+#	background-color: rgba(0,0,0,0.7);
+	font-family: Verdana;
+	min-width: 200px;
+	color: #fff;
+	position: absolute;
+	border-radius: 25px;
+}
+
+.menu.align-left {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-top-left {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-top {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-top-right {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-right {
+	right: 25%;
+	top: 25%;
+	
+}
+
+.menu.align-bottom-right {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-bottom {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-bottom-left {
+	right: 25%;
+	top: 25%;
+}
+
+.menu.align-center {
+	right: 25%;
+	top: 25%;
+}
+
+.menu .head {
+	margin-bottom: 2px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: block;
+	background-color: #2c2f33;
+	height: 25px;
+	line-height: 22px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.menu .menu-items {
+	max-height: 295px;
+	overflow-y: hidden;
+}
+
+.menu .menu-items .menu-item {
+	margin-bottom: 2px;
+  	font-family: 'Poppins', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	background-color:#2c2f33;
+	height: 25px;
+	line-height: 22px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.menu .menu-items .menu-item.selected {
+	font-family: 'Poppins', sans-serif;
+	background: #99aab5;
+  	color : #2c2f33;
+	font-size: 13px;
+	font-weight: bold;
+}
